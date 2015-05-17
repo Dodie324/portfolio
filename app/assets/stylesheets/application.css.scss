@@ -89,7 +89,18 @@ body, html
 
 .about .card img
 {
+    border-radius: 20em;
     margin-bottom: 15px;
+}
+
+.about .card-action {
+  margin-left: 20px;
+  margin-right: 20px;
+
+  a {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 
 .portfolio .col
@@ -119,13 +130,13 @@ body, html
 
 .portfolio .portfolio-holder
 {
-    clear: both;
     text-align: center;
+    margin: 0;
 }
 
 .portfolio img
 {
-    width: 33%;
+    width: 100%;
     display: inline-block;
     float: left;
 }
